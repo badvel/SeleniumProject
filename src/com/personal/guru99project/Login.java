@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 public class Login {
 	
 	@Test
+	
+	// Thhis method is to login into the application
 	public void LoginApp(){
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
